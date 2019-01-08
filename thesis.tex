@@ -4,7 +4,7 @@
 %% Choose Thesis type: seminar, bachelor, master, phd, techreport
 %% Use 'declaration' parameter if you want to generate declaration page
 %% Use 'final' to disable Todo-notes from final version without deleting each one of them
-\documentclass[german,master]{KITthesis}
+\documentclass[english,seminar,final]{KITthesis}
 
 %% ---------------------------------
 %% | Information about the thesis  |
@@ -48,10 +48,6 @@
 % TODO: Remove this from final version
 \includelistoftodos
 
-\includedeclaration
-
-\includeacknowledgments
-
 %% ----------------
 %% |   Abstract   |
 %% ----------------
@@ -77,10 +73,6 @@
 
 \include{Content/1-Introduction}
 \include{Content/2-State-of-the-art}
-\include{Content/3-Methods}
-\include{Content/4-Concept}
-\include{Content/5-Implementation}
-\include{Content/6-Results}
 \include{Content/7-Discussion}
 \include{Content/8-Conclusion}
 
@@ -88,13 +80,6 @@
 %% |   Bibliography   |
 %% --------------------
 \Bibliography{\mybibliographyfiles}
-
-%% ----------------
-%% |   Appendix   |
-%% ----------------
-% \cleardoublepage
-\include{Content/11-Appendix}
-
 % Remove if needed
 %% -----------------------------
 %% |   List of Figures/Tables  |
